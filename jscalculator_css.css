@@ -1,0 +1,44 @@
+html {
+    background: linear-gradient(90deg, #4B79A1, #283E51)
+  }
+  body {
+    padding: 1em 0 4em;
+    text-align: center;
+  }
+  #calculator {
+    font-size: 28px;
+    margin: 0 auto;
+    width: 15em;
+    padding: 0.5em;
+  }
+  button {
+    border: 0;
+    font-size: 0.8em;
+    width: 3em;
+    height: 3em;
+    background: linear-gradient(90deg, #173c5d, #012749);
+    color: white;
+    float: left;
+    margin: 0.5em;
+    margin-top: 0.5em;
+    box-shadow: 2px 2px 0px 2px rgb(0,0,0);
+  }
+  button:hover {
+    cursor: pointer;
+    background: #184a77;
+  }
+  #display {
+    font-size: 1.5em;
+    width: 5.2em;
+    float: left;
+    text-align: right;
+    height: 1.5em;
+    margin: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    line-height: 1.5em;
+    overflow: hidden;
+  }
+  
+  
+  
